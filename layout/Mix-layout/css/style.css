@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 100px;
+    background: blue;
+}
+.head{
+    height: 100px;
+    width: 800px;
+    background: #f60;
+    margin: 0 auto;
+}
+.main{
+    width: 800px;
+    height: 600px;
+    background: #ccc;
+    margin: 0 auto;
+}
+.left{
+    width: 200px;
+    height: 600px;
+    background: yellow;
+    float: left;
+}
+.right{
+    width: 600px;
+    height: 600px;
+    background: #369;
+    float: right;
+}
+.sub_l{
+    width: 400px;
+    height: 600px;
+    background: green;
+    float: left;
+}
+.sub_r{
+    width: 200px;
+    height: 600px;
+    background: #09F;
+    float: right;
+}
+.foot{
+    width: 800px;
+    height: 100px;
+    background: #900;
+    margin: 0 auto;
+}

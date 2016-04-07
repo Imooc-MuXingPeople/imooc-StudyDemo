@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    width: 200px;
+    height: 500px;
+    background: #ccc;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.middle{
+    height: 500px;
+    background: #999;
+    margin: 0 310px 0 210px;
+}
+.right{
+    width: 300px;
+    height: 500px;
+    background: #ddd;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

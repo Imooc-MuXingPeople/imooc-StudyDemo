@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    width: 33.33%;
+    height: 500px;
+    float: left;
+    background: #ccc;
+}
+.middle{
+    width: 33.33%;
+    height: 500px;
+    float: left;
+    background: #999;
+}
+.right{
+    width: 33.33%;
+    height: 500px;
+    float: right;
+    background: #ddd;
+}

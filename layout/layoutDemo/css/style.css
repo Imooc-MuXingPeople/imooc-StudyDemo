@@ -1,0 +1,89 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin: 0;padding: 0;list-style: none;font:12px/1.5 "Arial", "sans-serif", "微软雅黑", "宋体", "Tahoma"}
+
+/*初级*/
+.demo01{
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.demo01 .left{
+    width: 100px;
+    float: left;
+}
+.demo01 .left img{
+    margin-left: 20px; 
+}
+.demo01 .right{
+    width: 458px;
+    float: right;
+    background: #9CF;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.demo01 .right p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.demo01 span{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 12px;
+}
+/*中级*/
+.demo02{
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.demo02 .left{
+    width: 100px;
+    float: left;
+}
+.demo02 img{
+    float: left;
+    margin-left: 20px;
+}
+.demo02 .right{
+    width: 458px;
+    float: right;
+    background: #9CF;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.demo02 .right p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.demo02 span{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 12px;
+}    
+
+/*高级*/
+.demo03{
+    width: 458px;
+    padding: 20px;
+    background: #9CF;
+    border: 1px solid #ccc;
+    margin-left: 100px;
+    position: relative;
+}
+.demo03 img{
+    float: left;
+    margin: -20px 0 0 -100px;
+}
+.demo03 p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.demo03 span{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 12px;
+}
+/*总结，三个一样的图形，从简化结构入手，少用DIV。写出高质量的代码；*/

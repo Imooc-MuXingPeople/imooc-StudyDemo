@@ -1,0 +1,25 @@
+// $(function(){
+//     $('a').hover()
+//     function(){
+//         $(this).animate({
+//             "width":"160px"
+//         },300);
+//     }
+//      function(){
+//         $(this).animate({
+//             "width":"120px"
+//         },300);
+//     }
+// })
+
+$(function() {
+    $('.nav').kwicks({
+    max :120,
+    isVertical: false,
+    sticky: false,
+    defaultKwick: 0,
+    event: 'mouseover',
+    spacing: 0,
+    duration: 500
+    });
+});

@@ -53,11 +53,11 @@
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/layout/course-fixed/固定层.html<br><br>
  demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/layout/course-fixed/固定层.html <br>
 
-## 固定层效果制作：
+## 实现新手引导效果js：
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/layout/NPG/12%20js新手引导.html<br><br>
  demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/layout/NPG/12%20js新手引导.html <br>
  
-## 固定层效果制作：
+## 实现新手引导效果jQ：
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/layout/NPG/12%20jQ新手引导.html<br><br>
  demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/layout/NPG/12%20jQ新手引导.html <br>
  

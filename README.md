@@ -48,3 +48,7 @@
 ## 导航菜单之-jQ菜单的制作-水平方向：
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/layout/navMenu/11%20jQ菜单的制作-水平方向.html<br><br>
  demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/layout/navMenu/11%20jQ菜单的制作-水平方向.html <br>
+
+## 固定层效果制作：
+ 代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/layout/course-fixed/固定层.html<br><br>
+ demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/layout/course-fixed/固定层.html <br>

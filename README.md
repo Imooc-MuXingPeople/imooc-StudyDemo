@@ -61,7 +61,7 @@
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/layout/NPG/12%20jQ新手引导.html<br><br>
  demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/layout/NPG/12%20jQ新手引导.html <br>
  
-## 实现新手引导效果jQ：
+## 实现一个简单的停车动画页面：
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/layout/RobParking/demo.html<br><br>
  demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/layout/RobParking/demo.html <br> 
  

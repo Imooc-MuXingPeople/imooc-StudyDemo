@@ -1,0 +1,71 @@
+<!-- 请使用原生js实现一个div可拖拽，需要考虑浏览器兼容性。 -->
+ <html>
+  <head>
+     <title>test</title>
+ </head>
+ <style type="text/css">
+  #drag1 {
+      width: 50px;
+      height: 50px;
+      background-color: #404040;
+      cursor: pointer;
+ }
+</style>
+ <body>
+     <div id = "drag1"></div>
+ </body>
+ <script type="text/javascript">
+ window.onload = function() {
+     function Drag(obj) {
+         this.obj = obj;
+     }
+     Drag.prototype = {
+         constructor: Drag,
+         getInitPosition: function(e) {
+             e = e || window.event;
+             var eX,eY;
+             if(e.pageX || e.pageY){
+                 eX = e.pageX;
+                 eY = e.pageY;
+             }
+             eX = e.clientX;
+             eY = e.clientY;
+             var positionX = eX- this.obj.offsetLeft;
+             var positionY = eY - this.obj.offsetTop;
+             return {
+                 x: positionX,
+                 y: positionY
+             } 
+        },
+         getmouseCoordinate:function(e) {
+             e = e || window.event;
+             if(e.pageX || e.pageY){
+                   return {x:e.pageX, y:e.pageY};
+             }
+             return {
+                   x:e.clientX + document.body.scrollLeft - document.body.clientLeft,
+                   y:e.clientY + document.body.scrollTop  - document.body.clientTop
+              };    
+         },
+         initDrag:function() {
+             var tempThis = this;
+             this.obj.onmousedown = function(e) {
+                 var initP = tempThis.getInitPosition();
+                 document.onmousemove = function(e) {
+                     var moveP = tempThis.getmouseCoordinate();
+                     tempThis.obj.style.marginTop = moveP.y - initP.y + "px"; 
+                     tempThis.obj.style.marginLeft = moveP.x - initP.x + "px"; 
+                 }
+                 document.onmouseup = function(){ 
+                     document.onmousemove = null;  
+                     document.onmouseup = null; 
+                 }
+            }
+         }
+     }
+     var drag = document.getElementById("drag1");
+     var dragElement = new Drag(drag);
+     dragElement.initDrag();
+ }
+ </script>
+ </html>

@@ -1,0 +1,26 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,th,td{margin:0;padding:0;font:12px/1.5 "宋体","Arial","sans-serif","Tahoma";color:#666}
+ul,ol,li{ list-style:none}
+img{ border:none}
+input,select,img{ vertical-align:middle}
+label{ vertical-align:middle}
+input:focus,textarea:focus{ outline:none}
+.btn{ border:none 0}
+.mb10{ margin-bottom:10px}
+
+/*main*/
+form{ width:740px;height:500px;margin:100px auto}
+form div{ overflow:hidden;clear:both}
+form div label{ float:left;clear:both}
+form div label .text{width:152px;height:26px;padding:0 2px;border:1px solid #ccc}
+form div label b{ font-weight:normal;font-size:12px;color:#ccc;visibility:hidden}
+form div em{ display:inline-block;font-size:12px;text-align:center;color:#fff;vertical-align:middle;font-style:normal;width:53px;height:15px;line-height:15px;background:#FFD099}
+form div .active{ background-color:#FF6600}
+div span{ display:inline-block;width:80px;text-align:right}
+.submitBtn{ width:135px;height:33px;background:url(../images/sprite.png);color:#fff;margin:20px 0 0 80px}
+.changeImg{ width:22px;height:22px;display:inline-block;vertical-align:middle;background:url(../images/sprite.png)no-repeat 0 -128px}
+.msg{ line-height:12px;color:#999;float:left;margin-left:5px;display:none}
+.msg  i{ display:inline-block;vertical-align:middle;width:25px;height:20px;background:url(../images/sprite.png) no-repeat;}
+.msg .ati{ background-position:0 -71px}
+.msg .err{ background-position:0 -39px}
+.msg .ok{ background-position:0 -99px}

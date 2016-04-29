@@ -61,3 +61,22 @@
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/layout/NPG/12%20jQ新手引导.html<br><br>
  demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/layout/NPG/12%20jQ新手引导.html <br>
  
+## 实现一个简单的停车动画页面：
+ 代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/layout/RobParking/demo.html<br><br>
+ demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/layout/RobParking/demo.html <br> 
+ 
+## 表单全集之淘宝注册1：
+ 代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/Form(biaodan)/Taobao/index.html<br><br>
+ demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/Form(biaodan)/Taobao/index.html <br> 
+
+## 表单全集之一个登录界面效果2：
+ 代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/Form(biaodan)/Taobao/index.html<br><br>
+ demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/Form(biaodan)/jquery.login-ui/index.html <br>
+
+## 面试全集之原生Js实现div可拖拽，考虑兼容；：
+ 代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/Interview-topic/原生Js实现div可拖拽，考虑兼容；/index.html<br><br>
+ demo：https://imooc-muxingpeople.github.io/imooc-StudyDemo/Interview-topic/原生Js实现div可拖拽，考虑兼容；/index.html <br>
+ 
+## 面试全集之如何判断浏览器是IE还是火狐，用ajax实现：
+ 代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/Interview-topic/%20如何判断浏览器是IE还是火狐，用ajax实现/index.html<br><br>
+ 

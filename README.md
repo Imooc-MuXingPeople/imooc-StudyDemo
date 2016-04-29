@@ -80,6 +80,6 @@
 ## 面试全集之如何判断浏览器是IE还是火狐，用ajax实现：
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/Interview-topic/%20如何判断浏览器是IE还是火狐，用ajax实现/index.html<br><br>
  
-## 面试全集之原生Js实现div可拖拽，考虑兼容:
+##幽灵按钮  :
  代码地址:https://github.com/Imooc-MuXingPeople/imooc-StudyDemo/blob/master/Button/index.html<br><br>
  demo:https://imooc-muxingpeople.github.io/imooc-StudyDemo/Button/index.html <br>
